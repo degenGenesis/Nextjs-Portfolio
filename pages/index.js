@@ -22,9 +22,10 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://cgtones.github.io/Audioslate/" className={styles.card}>
+            <h2>AudioSlate &rarr;</h2>
+            <iframe src='https://cgtones.github.io/Audioslate/' width='100%' height='100%' />
+            <p>Create & save custom playlists to your Spotify account</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
