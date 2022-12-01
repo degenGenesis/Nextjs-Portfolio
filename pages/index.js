@@ -13,14 +13,14 @@ export default function Home() {
       </Head>
 
       
-        <div className={styles.header}>
-          <h1>TrevorJS</h1>
-          <nav>            
-            <Link href='/projects/projectsHome' className={styles.navLinks}>Projects</Link>
-            <Link href='/about' className={styles.navLinks}>About</Link>
-            <Link href='/signup' className={styles.navLinks}>Sign Up</Link>            
-          </nav>
-        </div>
+      <header className={styles.header}>
+        <h1>TrevorJS</h1>
+        <nav>            
+          <Link href='/projects/projectsHome' className={styles.navLinks}>Projects</Link>
+          <Link href='/about' className={styles.navLinks}>About</Link>
+          <Link href='/signup' className={styles.navLinks}>Sign Up</Link>            
+        </nav>
+      </header>
       
 
       <main className={styles.main}>
