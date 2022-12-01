@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function FirstPost() {
+export default function ProjectsHome() {
   return (
     <>
       <h1>Here are all my projects.</h1>
