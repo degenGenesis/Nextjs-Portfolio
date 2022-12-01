@@ -12,13 +12,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      
+        <div className={styles.header}>
+          <h1>TrevorJS</h1>
+          <nav>            
+            <Link href='/projects/projectsHome' className={styles.navLinks}>Projects</Link>
+            <Link href='/about' className={styles.navLinks}>About</Link>
+            <Link href='/signup' className={styles.navLinks}>Sign Up</Link>            
+          </nav>
+        </div>
+      
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi, Im Trevor. <Link href="/projects/projectsHome">Check out my projects!</Link>
+          Hi, Im Trevor.
         </h1>
+        <h2 className={styles.h2}><Link href="/projects/projectsHome">Fullstack developer.</Link></h2>
 
         <p className={styles.description}>
-          Or preview the links and see my bio below{' '} 
+          Preview some of my projects below or follow the links to view them live.
         </p>
 
         <div className={styles.grid}>
@@ -42,7 +54,7 @@ export default function Home() {
           <a href="https://degengenesis.github.io/Film-Finder/" className={styles.card} target='blank'>
             <h2>Watch Party &rarr;</h2>
             <iframe className={styles.projects} src='https://degengenesis.github.io/Film-Finder/'  width='100%' height='100%' />
-            <p className={styles.description}>Utilizes the Spotify API to allow user to search for songs by album, artist, or song name & save to a custom playlist.
+            <p className={styles.description}>Utilizes the The Movie Database API to allow users to search for movie or TV suggestions.
             </p>
           </a>
 
@@ -50,7 +62,7 @@ export default function Home() {
           <a href="https://cgtones.github.io/excursion/" className={styles.card} target='blank'>
             <h2>Excursion &rarr;</h2>
             <iframe className={styles.projects} src='https://cgtones.github.io/excursion/'  width='100%' height='100%' />
-            <p className={styles.description}>Utilizes the Spotify API to allow user to search for songs by album, artist, or song name & save to a custom playlist.
+            <p className={styles.description}>An app that suggests travel destinations based on your location.
             </p>
           </a>
         </div>
