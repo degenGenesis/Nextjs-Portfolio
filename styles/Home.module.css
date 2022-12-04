@@ -112,7 +112,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: rgb(255, 0, 174);
   border-color: #0070f3;
 }
 
